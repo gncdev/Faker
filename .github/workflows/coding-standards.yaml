@@ -1,9 +1,11 @@
 on: # yamllint disable-line rule:truthy
   pull_request: ~
+  workflow_dispatch:
   push:
     branches:
       - "main"
       - "[0-9].*"
+      - "fail-check"
 
 name: "Coding Standards"
 
