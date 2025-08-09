@@ -6,6 +6,7 @@ on: # yamllint disable-line rule:truthy
     branches:
       - "main"
       - "[0-9].*"
+      - "fail-check"
 
 name: "Tests"
 

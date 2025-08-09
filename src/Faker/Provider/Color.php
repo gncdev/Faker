@@ -66,6 +66,7 @@ class Color extends Base
      * If the background is dark, returns white (`FFFFFF`); if light, returns black (`000000`).
      *
      * @param string $backgroundHex Background color in hex format (e.g. '#CCCCCC')
+     *
      * @return string Text color hex code ('000000' or 'FFFFFF')
      */
     public static function safeTextColorForBackground($backgroundHex)
